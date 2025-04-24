@@ -1,0 +1,61 @@
+{
+    "auto": {
+        "title": "Авто",
+        "description": "Раздел, посвящённый продаже и аренде автомобилей."
+    },
+    "home": {
+        "title": "Главная",
+        "description": "Добро пожаловать на главную страницу."
+    },
+    "realty": {
+        "title": "Недвижимость",
+        "description": "Объявления о продаже и аренде недвижимости."
+    },
+    "service": {
+        "title": "Услуги",
+        "description": "Предложение и поиск услуг."
+    },
+    "fashionStyleBeauty": {
+        "title": "Красота и стиль",
+        "description": "Товары и услуги в сфере красоты и моды."
+    },
+    "childrensProducts": {
+        "title": "Детские товары",
+        "description": "Всё для детей и младенцев."
+    },
+    "houseGarden": {
+        "title": "Дом и сад",
+        "description": "Товары для дома, ремонта и сада."
+    },
+    "jub": {
+        "title": "Ювелирные изделия",
+        "description": "Ювелирные украшения и аксессуары."
+    },
+    "pet": {
+        "title": "Животные",
+        "description": "Объявления о продаже животных и зоотовары."
+    },
+    "entertainmentAndHobbies": {
+        "title": "Развлечения и хобби",
+        "description": "Игры, хобби, книги и досуг."
+    },
+    "sportsEquipment": {
+        "title": "Спорт",
+        "description": "Спортивные товары и снаряжение."
+    },
+    "electronic": {
+        "title": "Электроника",
+        "description": "Гаджеты, техника и электроника."
+    },
+    "everythingForBusiness": {
+        "title": "Всё для бизнеса",
+        "description": "Оборудование и услуги для бизнеса."
+    },
+    "please_sign_in": "Пожалуйста, войдите",
+    "username": "Имя пользователя",
+    "password": "Пароль",
+    "sign_in": "Войти",
+    "sign_in_with_twitter": "Войти через Twitter",
+    "login": "Вход",
+    "logout": "Выход"
+}

@@ -1,0 +1,8 @@
+.public-page-container {
+  padding: 20px;
+}
+
+/* Header.css */
+.nav-link:hover {
+  text-decoration: underline;
+}
