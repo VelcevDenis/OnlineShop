@@ -15,9 +15,8 @@ const HomePage = () => {
         <nav aria-label="breadcrumb" className="mb-4">
           <ol className="breadcrumb breadcrumb-chevron p-3 bg-body-tertiary rounded-3">
             <li className="breadcrumb-item">
-              <Link className="link-body-emphasis d-flex align-items-center" to="/">
-                <BsHouseDoorFill className="me-1" />
-                {t("breadcrumb.home")}
+              <Link className="link-body-emphasis d-flex align-items-center" title={t("breadcrumb.home")} to="/">
+                <BsHouseDoorFill className="me-1" />                
               </Link>
             </li>
             <li className="breadcrumb-item">
