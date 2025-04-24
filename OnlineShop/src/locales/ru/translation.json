@@ -57,5 +57,10 @@
     "sign_in": "Войти",
     "sign_in_with_twitter": "Войти через Twitter",
     "login": "Вход",
-    "logout": "Выход"
+    "logout": "Выход",
+    "breadcrumb": {
+        "home": "Главная",
+        "section": "Раздел",
+        "current": "Домашняя"
+    }
 }

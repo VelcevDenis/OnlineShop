@@ -3,14 +3,34 @@ import { useTranslation } from "react-i18next";
 import AppLayout from "../../../components/public/AppLayout";
 import { Link } from "react-router-dom";
 import { publicRoutes } from "../../../routes/publicRoutes";
+import { BsHouseDoorFill } from "react-icons/bs";
 
 const HomePage = () => {
   const { t } = useTranslation();
+
   return (
     <AppLayout>
       <div className="public-page-container">
-        <h1>{t("home.title")}</h1>
-        <p>{t("home.description")}</p>
+
+        <nav aria-label="breadcrumb" className="mb-4">
+          <ol className="breadcrumb breadcrumb-chevron p-3 bg-body-tertiary rounded-3">
+            <li className="breadcrumb-item">
+              <Link className="link-body-emphasis d-flex align-items-center" to="/">
+                <BsHouseDoorFill className="me-1" />
+                {t("breadcrumb.home")}
+              </Link>
+            </li>
+            <li className="breadcrumb-item">
+              <Link className="link-body-emphasis fw-semibold text-decoration-none" to="#">
+                {t("breadcrumb.section")}
+              </Link>
+            </li>
+            <li className="breadcrumb-item active" aria-current="page">
+              {t("breadcrumb.current")}
+            </li>
+          </ol>
+        </nav>
+
         <div className="container-fluid pb-3">
           <div className="d-grid gap-3" style={{ gridTemplateColumns: '0.3fr 2fr' }}>
 
@@ -23,7 +43,6 @@ const HomePage = () => {
                 </li>
               ))}
             </ul>
-
 
             <div className="bg-body-tertiary border rounded-3" style={{ height: '30vh' }}></div>
           </div>
