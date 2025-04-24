@@ -33,6 +33,9 @@ const RoutesComponent = () => {
   return (
     <Suspense fallback={<div>Loading...</div>}>
       <Routes>
+        {/* Редирект с корня на публичную домашнюю страницу */}
+        <Route path="/" element={<Navigate to="/public/home" replace />} />
+
         {/* Публичные страницы */}
         <Route path="/public/home" element={<HomePage />} />
         <Route path="/public/auto" element={<AutoPage />} />
