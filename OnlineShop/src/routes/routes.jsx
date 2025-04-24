@@ -33,23 +33,20 @@ const RoutesComponent = () => {
   return (
     <Suspense fallback={<div>Loading...</div>}>
       <Routes>
-        {/* Редирект с корня на публичную домашнюю страницу */}
-        <Route path="/" element={<Navigate to="/public/home" replace />} />
-
         {/* Публичные страницы */}
-        <Route path="/public/home" element={<HomePage />} />
-        <Route path="/public/auto" element={<AutoPage />} />
-        <Route path="/public/realty" element={<RealtyPage />} />
-        <Route path="/public/service" element={<ServicePage />} />
-        <Route path="/public/fashion-style-beauty" element={<FashionStyleBeautyPage />} />
-        <Route path="/public/childrens-products" element={<ChildrensProductsPage />} />
-        <Route path="/public/house-garden" element={<HouseGardenPage />} />
-        <Route path="/public/job" element={<JobPage />} />
-        <Route path="/public/pet" element={<PetPage />} />
-        <Route path="/public/entertainment-and-hobbies" element={<EntertainmentAndHobbiesPage />} />
-        <Route path="/public/sports-equipment" element={<SportsEquipmentPage />} />
-        <Route path="/public/electronic" element={<ElectronicPage />} />
-        <Route path="/public/everything-for-business" element={<EverythingForBusinessPage />} />
+        <Route path="/" element={<HomePage />} />
+        <Route path="/auto" element={<AutoPage />} />
+        <Route path="/realty" element={<RealtyPage />} />
+        <Route path="/service" element={<ServicePage />} />
+        <Route path="/fashion-style-beauty" element={<FashionStyleBeautyPage />} />
+        <Route path="/childrens-products" element={<ChildrensProductsPage />} />
+        <Route path="/house-garden" element={<HouseGardenPage />} />
+        <Route path="/job" element={<JobPage />} />
+        <Route path="/pet" element={<PetPage />} />
+        <Route path="/entertainment-and-hobbies" element={<EntertainmentAndHobbiesPage />} />
+        <Route path="/sports-equipment" element={<SportsEquipmentPage />} />
+        <Route path="/electronic" element={<ElectronicPage />} />
+        <Route path="/everything-for-business" element={<EverythingForBusinessPage />} />
         
         {/* Админские страницы */}
         <Route
