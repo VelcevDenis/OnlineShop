@@ -1,7 +1,9 @@
 import React, { useEffect, useState } from 'react';
+import { Link } from 'react-router-dom';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import 'bootstrap/dist/js/bootstrap.bundle.min.js';
+import 'bootstrap-icons/font/bootstrap-icons.css';
 import { useTranslation } from 'react-i18next';
+import 'bootstrap/dist/js/bootstrap.bundle.min.js';
 
 const Header = () => {
   const { i18n, t } = useTranslation();
@@ -19,128 +21,94 @@ const Header = () => {
   const handleLogout = () => {
     localStorage.removeItem('token');
     setIsAuthenticated(false);
-    window.location.href = '/'; // или Navigate, если используешь useNavigate
+    window.location.href = '/';
   };
 
   return (
-    <header className="py-3 mb-3 border-bottom bg-success-subtle">
-      <div
-        className="container-fluid d-grid gap-3 align-items-center"
-        style={{ gridTemplateColumns: '1fr 2fr' }}
-      >
-        <div className="dropdown">
-          <a
-            href="#"
-            className="d-flex align-items-center col-lg-4 mb-2 mb-lg-0 link-body-emphasis text-decoration-none dropdown-toggle"
-            data-bs-toggle="dropdown"
-            aria-expanded="false"
-          >
-            <svg className="bi me-2" width="40" height="32" aria-hidden="true">
-              <use xlinkHref="#bootstrap" />
-            </svg>
-          </a>
-          <ul className="dropdown-menu text-small shadow">
-            <li><a className="dropdown-item active" href="#">Overview</a></li>
-            <li><a className="dropdown-item" href="#">Inventory</a></li>
-            <li><a className="dropdown-item" href="#">Customers</a></li>
-            <li><a className="dropdown-item" href="#">Products</a></li>
-            <li><hr className="dropdown-divider" /></li>
-            <li><a className="dropdown-item" href="#">Reports</a></li>
-            <li><a className="dropdown-item" href="#">Analytics</a></li>
-          </ul>
-        </div>
+    <header className="bg-white border-bottom shadow-sm py-2">
 
-        <div className="d-flex align-items-center justify-content-end gap-3">
-          <form className="w-100 me-3" role="search">
-            <input
-              type="search"
-              className="form-control"
-              placeholder="Search..."
-              aria-label="Search"
-            />
-          </form>
+      <div className="container-fluid px-3">
 
-          <div className="dropdown">
-            <button
-              className="btn btn-outline-secondary dropdown-toggle btn-sm"
-              type="button"
-              id="languageDropdown"
-              data-bs-toggle="dropdown"
-              aria-expanded="false"
-            >
-              🌍 {(() => {
-                switch (i18n.language) {
-                  case 'en': return '🇬🇧';
-                  case 'ru': return '🇷🇺';
-                  case 'ee': return '🇪🇪';
-                  default: return '🌍 Language';
-                }
-              })()}
-            </button>
-            <ul className="dropdown-menu dropdown-menu-end" aria-labelledby="languageDropdown">
-              {[
-                { code: 'en', label: 'English' },
-                { code: 'ru', label: 'Русский' },
-                { code: 'ee', label: 'Eesti' },
-              ].map((lang) => (
-                <li key={lang.code}>
-                  <button
-                    className="dropdown-item"
-                    onClick={() => changeLanguage(lang.code)}
-                    disabled={lang.code === i18n.language}
-                  >
-                    {lang.label}
-                    {lang.code === i18n.language && ' ✅'}
-                  </button>
-                </li>
-              ))}
-            </ul>
+        {/* Верхняя строка: логотип, язык, логин */}
+        <div className="d-flex justify-content-between align-items-center flex-wrap gap-2">
+          {/* Лого */}
+          <div className="d-flex align-items-center gap-2">
+            <i className="bi bi-shop fs-3 text-success"></i>
+            <h4 className="mb-0">MyShop</h4>
           </div>
 
+          {/* Кнопка "Создать объявление" */}
+          <div className="flex-grow-1 d-flex justify-content-center justify-content-md-end">
+            <Link
+              to={isAuthenticated ? "/create-ad" : "/login"}
+              className="btn btn-success btn-sm d-flex align-items-center gap-1 px-3"
+            >
+              <i className="bi bi-plus-circle"></i>
+              <span className="d-none d-sm-inline">Создать объявление</span>
+            </Link>
+          </div>
+
+          {/* Языки и вход/аватар */}
+          <div className="d-flex align-items-center gap-2">
+            <select
+              className="form-select form-select-sm w-auto"
+              onChange={(e) => changeLanguage(e.target.value)}
+              value={i18n.language}
+            >
+              <option value="en">EN</option>
+              <option value="ru">RU</option>
+              <option value="ee">EE</option>
+            </select>
+
+            {isAuthenticated ? (
+              <div className="dropdown">
+                <a
+                  href="#"
+                  className="d-block link-body-emphasis text-decoration-none dropdown-toggle"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  <img
+                    src="/images/default-user.jpg"
+                    alt="avatar"
+                    width="32"
+                    height="32"
+                    className="rounded-circle"
+                  />
+                </a>
+                <ul className="dropdown-menu dropdown-menu-end shadow">
+                  <li><Link className="dropdown-item" to="/profile">{t('menu.profile') || "Profile"}</Link></li>
+                  <li><Link className="dropdown-item" to="/settings">{t('menu.settings') || "Settings"}</Link></li>
+                  <li><hr className="dropdown-divider" /></li>
+                  <li>
+                    <button className="dropdown-item" onClick={handleLogout}>
+                      {t('menu.logout') || "Sign out"}
+                    </button>
+                  </li>
+                </ul>
+              </div>
+            ) : (
+              <Link to="/login" className="btn btn-success btn-sm">
+                <i className="bi bi-box-arrow-in-right me-1"></i> {t('menu.login') || "Login"}
+              </Link>
+            )}
+          </div>
+        </div>
 
 
-          {isAuthenticated ? (
-            <div className="flex-shrink-0 dropdown">
-              <a
-                href="#"
-                className="d-block link-body-emphasis text-decoration-none dropdown-toggle"
-                data-bs-toggle="dropdown"
-                aria-expanded="false"
-              >
-                <img
-                  src="https://github.com/mdo.png"
-                  alt="mdo"
-                  width="32"
-                  height="32"
-                  className="rounded-circle"
-                />
-              </a>
-              <ul className="dropdown-menu text-small shadow">
-                <li><a className="dropdown-item" href="#">New project...</a></li>
-                <li><a className="dropdown-item" href="#">Settings</a></li>
-                <li><a className="dropdown-item" href="#">Profile</a></li>
-                <li><hr className="dropdown-divider" /></li>
-                <li>
-                  <button className="dropdown-item" onClick={handleLogout}>
-                    {t('menu.logout') || 'Sign out'}
-                  </button>
-                </li>
-              </ul>
-            </div>
-          ) : (            
-
-            <button type="button" class="btn " title="login" onClick={() => {
-              localStorage.removeItem('token');
-              window.location.href = '/login';
-            }}>
-              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-door-open" viewBox="0 0 16 16">
-                <path d="M8.5 10c-.276 0-.5-.448-.5-1s.224-1 .5-1 .5.448.5 1-.224 1-.5 1"></path>
-                <path d="M10.828.122A.5.5 0 0 1 11 .5V1h.5A1.5 1.5 0 0 1 13 2.5V15h1.5a.5.5 0 0 1 0 1h-13a.5.5 0 0 1 0-1H3V1.5a.5.5 0 0 1 .43-.495l7-1a.5.5 0 0 1 .398.117M11.5 2H11v13h1V2.5a.5.5 0 0 0-.5-.5M4 1.934V15h6V1.077z"></path>
-              </svg>
-              {/* {t('menu.logout')} */}
+        {/* Поиск: всегда на новой строке на мобильных, inline на md+ */}
+        <div className="mt-3 mt-md-2">
+          <form className="d-flex flex-md-row flex-column">
+            <input
+              className="form-control me-md-2 mb-2 mb-md-0"
+              type="search"
+              placeholder={t('search.placeholder') || "Search..."}
+              aria-label="Search"
+            />
+            <button className="btn btn-outline-secondary" type="submit">
+              <i className="bi bi-search"></i>
             </button>
-
-          )}
+          </form>
         </div>
       </div>
     </header>

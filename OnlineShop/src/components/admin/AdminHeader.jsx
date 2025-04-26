@@ -11,7 +11,7 @@ const AdminHeader = () => {
   const [menuOpen, setMenuOpen] = useState(false);
 
   return (
-    <div className="d-flex flex-column flex-md-row min-vh-100">
+    <div className="d-flex flex-column flex-md-row">
       {/* Sidebar */}
       <div
         className={`offcanvas-md offcanvas-start text-bg-dark ${menuOpen ? 'show' : ''}`}
@@ -78,7 +78,7 @@ const AdminHeader = () => {
               data-bs-toggle="dropdown"
             >
               <img
-                src="https://github.com/mdo.png"
+                src="/images/default-user.jpg"
                 alt="User"
                 width="32"
                 height="32"
