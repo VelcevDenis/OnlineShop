@@ -8,6 +8,10 @@ import "./i18n";
 import { useTranslation } from "react-i18next";
 import RoutesComponent from "./routes/routes"; // Импортируем маршруты
 
+// 👇 Импортируем ToastContainer
+import { ToastContainer } from "react-toastify";
+import 'react-toastify/dist/ReactToastify.css';
+
 const App = () => {
   const [token, setToken] = useState(localStorage.getItem("token"));
   const { i18n } = useTranslation();
@@ -26,8 +30,23 @@ const App = () => {
   };
 
   return (
-    <Router>      
-      <RoutesComponent token={token} /> {/* Используем компонент RoutesComponent */}
+    <Router>
+      {/* Все маршруты */}
+      <RoutesComponent token={token} />
+      
+      {/* 👇 Добавляем контейнер тостов в самом конце */}
+      <ToastContainer
+        position="top-right"
+        autoClose={3000} 
+        hideProgressBar={false}
+        newestOnTop
+        closeOnClick
+        rtl={false}
+        pauseOnFocusLoss
+        draggable
+        pauseOnHover
+        theme="colored"
+      />
     </Router>
   );
 };

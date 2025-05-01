@@ -19,6 +19,10 @@ const NotFoundPage = React.lazy(() => import("../pages/public/NotFound/NotFoundP
 
 // Админские страницы
 const AdminHomePage = React.lazy(() => import("../pages/admin/Home/AdminHomePage"));
+const CreateAdvertPage = React.lazy(() => import("../pages/admin/CreateAdvert/CreateAdvertPage"));
+const ProfilePage = React.lazy(() => import("../pages/admin/Profile/ProfilePage"));
+
+const RegistrationPage = React.lazy(() => import("../pages/admin/Registration/RegistrationPage"));
 const LoginPage = React.lazy(() => import("../pages/admin/Login/LoginPage"));
 
 const RoutesComponent = () => {
@@ -47,19 +51,19 @@ const RoutesComponent = () => {
         <Route path="/sports-equipment" element={<SportsEquipmentPage />} />
         <Route path="/electronic" element={<ElectronicPage />} />
         <Route path="/everything-for-business" element={<EverythingForBusinessPage />} />
-        
+        <Route path="/new-account" element={<RegistrationPage />} />
+
         {/* Админские страницы */}
-        <Route
-          path="/admin/home"
-          element={token ? <AdminHomePage /> : <Navigate to="/login" />}
-        />
-        
+        <Route path="/admin/home" element={token ? <AdminHomePage /> : <Navigate to="/login" />} />
+        <Route path="/admin/create/advert" element={token ? <CreateAdvertPage /> : <Navigate to="/login" />} />
+        <Route path="/admin/myprofile" element={token ? <ProfilePage /> : <Navigate to="/login" />} />
+
         {/* Страница логина */}
         <Route
           path="/login"
-          element={<LoginPage setToken={token => { 
-            localStorage.setItem('token', token); 
-            setToken(token); 
+          element={<LoginPage setToken={token => {
+            localStorage.setItem('token', token);
+            setToken(token);
           }} />}
         />
 

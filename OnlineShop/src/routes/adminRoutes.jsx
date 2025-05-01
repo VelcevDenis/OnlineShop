@@ -2,19 +2,16 @@ export const adminRoutes = [
   {
     id: 'homeMenu',
     label: 'Главная',
-    children: [
-      { path: '/overview', label: 'Обзор' },
-      { path: '/updates', label: 'Обновления' },
-      { path: '/news', label: 'Новости' },
-    ],
+    path: '/admin/home', // добавляем прямую ссылку
   },
   {
     id: 'dashboardMenu',
-    label: 'Панель управления',
+    label: 'Управление Обьявлениями',
     children: [
-      { path: '/stats', label: 'Статистика' },
-      { path: '/analytics', label: 'Аналитика' },
-      { path: '/performance', label: 'Производительность' },
+      { path: '/admin/create/advert', label: '+ Создать' },
+      { path: '/admin/stats', label: 'Статистика' },
+      { path: '/admin/analytics', label: 'Аналитика' },
+      { path: '/admin/my/adverts', label: 'Мои Обьявления' },
     ],
   },
   {

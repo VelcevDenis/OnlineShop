@@ -1,0 +1,2 @@
+"use strict";(self.webpackChunkreact_fastapi_auth_app=self.webpackChunkreact_fastapi_auth_app||[]).push([[398],{398:function(t,e,a){a.r(e),a.d(e,{default:function(){return n}});a(5043);var c=a(4117),r=a(579),n=function(){var t=(0,c.Bd)().t;return(0,r.jsxs)("div",{className:"public-page-container",children:[(0,r.jsx)("h1",{children:t("childrensProducts.title")}),(0,r.jsx)("p",{children:t("childrensProducts.description")})]})}}}]);
+//# sourceMappingURL=398.8f3995ba.chunk.js.map

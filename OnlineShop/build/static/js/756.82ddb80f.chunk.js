@@ -1,0 +1,2 @@
+"use strict";(self.webpackChunkreact_fastapi_auth_app=self.webpackChunkreact_fastapi_auth_app||[]).push([[756],{4756:function(a,t,e){e.r(t),e.d(t,{default:function(){return s}});e(5043);var n=e(4117),i=e(579),s=function(){var a=(0,n.Bd)().t;return(0,i.jsxs)("div",{className:"public-page-container",children:[(0,i.jsx)("h1",{children:a("fashionStyleBeauty.title")}),(0,i.jsx)("p",{children:a("fashionStyleBeauty.description")})]})}}}]);
+//# sourceMappingURL=756.82ddb80f.chunk.js.map

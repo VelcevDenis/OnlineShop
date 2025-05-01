@@ -1,43 +1,33 @@
 import React, { useState, useEffect } from "react";
 import { useNavigate } from "react-router-dom";
 import { useTranslation } from "react-i18next";
+import { toast } from 'react-toastify';
+import { login } from '../../../services/authService';
 import "./LoginPage.css";
 
 const LoginPage = ({ setToken }) => {
   const [username, setUsername] = useState('');
   const [password, setPassword] = useState('');
-  const navigate = useNavigate(); // Для редиректа
+  const navigate = useNavigate();
   const { t } = useTranslation();
 
-  // Проверка наличия токена при монтировании компонента
   useEffect(() => {
     if (localStorage.getItem('token')) {
-      navigate('/admin/home'); // Перенаправляем, если уже есть токен
+      navigate('/admin/home');
     }
   }, [navigate]);
 
   const handleSubmit = async (e) => {
     e.preventDefault();
-
-    const formData = new URLSearchParams();
-    formData.append('username', username);
-    formData.append('password', password);
-
-    const res = await fetch(`${process.env.REACT_APP_API_URL}/auth/login`, {
-      method: 'POST',
-      headers: {
-        'Content-Type': 'application/x-www-form-urlencoded'
-      },
-      body: formData.toString()
-    });
-
-    if (res.ok) {
-      const data = await res.json();
-      setToken(data.token);
-      localStorage.setItem('token', data.token);
-      navigate('/admin/home'); // Перенаправляем на /admin/home
-    } else {
-      alert('Login failed');
+    try {
+      const { access_token } = await login({ username, password }); // ВАЖНО: access_token
+      setToken(access_token);
+      localStorage.setItem('token', access_token);
+      navigate('/admin/home');
+      toast.success('Успешный вход');
+    } catch (error) {
+      console.error('Ошибка входа', error);
+      toast.error(error.response?.data?.detail || 'Ошибка входа');
     }
   };
 
@@ -73,9 +63,14 @@ const LoginPage = ({ setToken }) => {
             <label htmlFor="floatingPassword">{t('password')}</label>
           </div>
 
-          <button className="btn btn-primary w-100 py-2 mb-2" type="submit">
-            {t('sign_in')}
-          </button>
+          <div className="d-flex justify-content-between gap-2 mb-2">
+            <button className="btn btn-primary w-50 py-2" type="submit">
+              {t('sign_in')}
+            </button>
+            <button className="btn btn-outline-success w-50 py-2" type="button" onClick={() => navigate("/new-account")}>
+              {t('register')}
+            </button>
+          </div>
           <button className="btn btn-outline-secondary w-100 py-2 mb-3" type="button">
             <svg className="bi me-1" width="16" height="16"><use xlinkHref="#twitter" /></svg>
             {t('sign_in_with_twitter')}
