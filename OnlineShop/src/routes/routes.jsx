@@ -3,7 +3,7 @@ import { Routes, Route, Navigate } from "react-router-dom";
 
 // Публичные страницы
 const HomePage = React.lazy(() => import("../pages/public/Home/HomePage"));
-const AutoPage = React.lazy(() => import("../pages/public/Auto/AutoPage"));
+const TransportPage = React.lazy(() => import("../pages/public/Transport/TransportPage"));
 const RealtyPage = React.lazy(() => import("../pages/public/Realty/RealtyPage"));
 const ServicePage = React.lazy(() => import("../pages/public/Service/ServicePage"));
 const FashionStyleBeautyPage = React.lazy(() => import("../pages/public/FashionStyleBeauty/FashionStyleBeautyPage"));
@@ -39,7 +39,7 @@ const RoutesComponent = () => {
       <Routes>
         {/* Публичные страницы */}
         <Route path="/" element={<HomePage />} />
-        <Route path="/auto" element={<AutoPage />} />
+        <Route path="/transport" element={<TransportPage />} />
         <Route path="/realty" element={<RealtyPage />} />
         <Route path="/service" element={<ServicePage />} />
         <Route path="/fashion-style-beauty" element={<FashionStyleBeautyPage />} />

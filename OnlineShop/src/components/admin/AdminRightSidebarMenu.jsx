@@ -100,7 +100,7 @@ const AdminRightSidebarMenu = () => {
             </a>
             <ul className="dropdown-menu dropdown-menu-dark text-small shadow">
               <li><a className="dropdown-item" href="/admin/myprofile">{t('menu.myprofile')}</a></li>
-              <li><a className="dropdown-item" href="#">{t('menu.settings')}</a></li>
+              <li><a className="dropdown-item" href="/settings">{t('menu.settings')}</a></li>
               <li><hr className="dropdown-divider" /></li>
               <li>
                 <button

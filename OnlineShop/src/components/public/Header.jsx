@@ -77,7 +77,7 @@ const Header = () => {
                   />
                 </a>
                 <ul className="dropdown-menu dropdown-menu-end shadow">
-                  <li><Link className="dropdown-item" to="/profile">{t('menu.profile') || "Profile"}</Link></li>
+                  <li><Link className="dropdown-item" to="/admin/myprofile">{t('menu.profile') || "Profile"}</Link></li>
                   <li><Link className="dropdown-item" to="/settings">{t('menu.settings') || "Settings"}</Link></li>
                   <li><hr className="dropdown-divider" /></li>
                   <li>

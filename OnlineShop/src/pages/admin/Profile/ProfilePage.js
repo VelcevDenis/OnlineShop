@@ -4,7 +4,7 @@ import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 import { changePassword, updateUserProfile, fetchUserProfile } from '../../../services/userService';
 import { mapFieldChange, fieldMap } from '../../../maps/profileFieldMapper';
-import countries from '../../../staticJSON/countries.json';
+import countries from '../../../staticJSON/globalArrays/countries.json';
 
 const ProfilePage = () => {
   const [activeTab, setActiveTab] = useState('profile');

@@ -1,0 +1,1858 @@
+[
+	{
+		"brand": "Hyundai",
+		"data": [
+				"Accent",
+				"Atos",
+				"Bayon",
+				"Creta",
+				"Elantra",
+				"Galloper",
+				"Genesis",
+				"Getz",
+				"Grand Santa Fe",
+				"H-1",
+				"i10",
+				"i20",
+				"i30",
+				"i40",
+				"Ioniq",
+				"Kona",
+				"Lantra",
+				"Matrix",
+				"Palisade",
+				"Santa Fe",
+				"Sonata",
+				"Staria",
+				"Terracan",
+				"Tiburon",
+				"Trajet",
+				"Tucson",
+				"Veloster",
+				"Venue",
+				"Veracruz",
+				"XG",
+				"Другое"
+			]
+	},
+	{
+		"brand": "KIA",
+		"data": [
+				"Besta",
+				"Carens",
+				"Carnival",
+				"Ceed",
+				"Cerato",
+				"Clarus",
+				"EV6",
+				"Forte",
+				"K5",
+				"K7",
+				"Mohave",
+				"Niro",
+				"Opirus",
+				"Optima",
+				"Picanto",
+				"Pregio",
+				"Pride",
+				"ProCeed",
+				"Ray",
+				"Rio",
+				"Seltos",
+				"Shuma",
+				"Sorento",
+				"Soul",
+				"Spectra",
+				"Sportage",
+				"Stinger",
+				"Stonic",
+				"Telluride",
+				"XCeed",
+				"Другое"
+			]
+	},
+	{
+		"brand": "Mercedes",
+		"data": [
+				"A-Класс",
+				"AMG GT",
+				"B-Класс",
+				"C-Класс",
+				"CL-Класс",
+				"CLA",
+				"CLC",
+				"CLK",
+				"CLS",
+				"E-Класс",
+				"EQC",
+				"EQS",
+				"G-Класс",
+				"GL-Класс",
+				"GLA",
+				"GLB",
+				"GLC",
+				"GLE",
+				"GLK",
+				"GLS",
+				"M-Класс",
+				"R-Класс",
+				"S-Класс",
+				"SL",
+				"SLC",
+				"SLK",
+				"SLS AMG",
+				"Sprinter",
+				"V-Класс",
+				"Vaneo",
+				"Viano",
+				"Vito",
+				"Другое"
+			]
+	},
+	{
+		"brand": "Nissan",
+		"data": [
+				"350Z",
+				"370Z",
+				"Almera",
+				"Altima",
+				"Ariya",
+				"Bluebird",
+				"Cube",
+				"GT-R",
+				"Juke",
+				"Kicks",
+				"King Cab",
+				"Leaf",
+				"Maxima",
+				"Micra",
+				"Murano",
+				"Navara",
+				"Note",
+				"NP300",
+				"Pathfinder",
+				"Patrol",
+				"Primera",
+				"Pulsar",
+				"Qashqai",
+				"Quest",
+				"Rogue",
+				"Sentra",
+				"Serena",
+				"Skyline",
+				"Teana",
+				"Terrano",
+				"Tiida",
+				"X-Trail",
+				"Другое"
+			]
+	},
+	{
+		"brand": "Skoda",
+		"data": [
+			"Citigo",
+			"Enyaq",
+			"Fabia",
+			"Felicia",
+			"Kamiq",
+			"Karoq",
+			"Kodiaq",
+			"Octavia",
+			"Praktik",
+			"Rapid",
+			"Roomster",
+			"Scala",
+			"Superb",
+			"Yeti",
+			"Другое"
+		]
+	},
+	{
+		"brand": "Toyota",
+		"data": [
+			"4Runner",
+			"Alphard",
+			"Auris",
+			"Avalon",
+			"Avensis",
+			"Aygo",
+			"C-HR",
+			"Camry",
+			"Carina",
+			"Celica",
+			"C-HR",
+			"Corolla",
+			"Crown",
+			"FJ Cruiser",
+			"GT86",
+			"Hiace",
+			"Highlander",
+			"Hilux",
+			"IQ",
+			"Land Cruiser",
+			"Matrix",
+			"Mirai",
+			"MR2",
+			"Paseo",
+			"Picnic",
+			"Previa",
+			"Prius",
+			"RAV4",
+			"Sequoia",
+			"Sienna",
+			"Supra",
+			"Tacoma",
+			"Tundra",
+			"Urban Cruiser",
+			"Verso",
+			"Yaris",
+			"Другое"
+		]
+	},
+	{
+		"brand": "Volvo",
+		"data": [
+			"240",
+			"340",
+			"440",
+			"460",
+			"480",
+			"740",
+			"760",
+			"780",
+			"850",
+			"940",
+			"960",
+			"C30",
+			"C70",
+			"S40",
+			"S60",
+			"S70",
+			"S80",
+			"S90",
+			"V40",
+			"V50",
+			"V60",
+			"V70",
+			"V90",
+			"XC40",
+			"XC60",
+			"XC70",
+			"XC90",
+			"Другое"
+		]
+	},
+	{
+		"brand": "Volkswagen",
+		"data": [
+			"Amarok",
+			"Arteon",
+			"Beetle",
+			"Bora",
+			"Caddy",
+			"CC",
+			"Corrado",
+			"Crafter",
+			"Eos",
+			"Fox",
+			"Golf",
+			"Golf Plus",
+			"ID.3",
+			"ID.4",
+			"Jetta",
+			"Lupo",
+			"Multivan",
+			"Passat",
+			"Passat CC",
+			"Phaeton",
+			"Polo",
+			"Santana",
+			"Scirocco",
+			"Sharan",
+			"T-Cross",
+			"T-Roc",
+			"Tiguan",
+			"Touareg",
+			"Touran",
+			"Transporter",
+			"Up!",
+			"Vento",
+			"Другое"
+		]
+	},
+	{
+		"brand": "ARO",
+		"data": [
+			"10",
+			"24",
+			"320",
+			"M461",
+			"Spartana",
+			"Другое"
+		]
+	},
+	{
+		"brand": "Abarth",
+		"data": [
+			"124 Spider",
+			"500",
+			"500C",
+			"595",
+			"595C",
+			"695",
+			"Punto",
+			"Другое"
+		]
+	},
+	{
+		"brand": "Acura",
+		"data": [
+			"CL",
+			"CSX",
+			"EL",
+			"ILX",
+			"Integra",
+			"Legend",
+			"MDX",
+			"NSX",
+			"RDX",
+			"RL",
+			"RLX",
+			"RSX",
+			"SLX",
+			"TL",
+			"TLX",
+			"TSX",
+			"Vigor",
+			"ZDX",
+			"Другое"
+		]
+	},
+	{
+		"brand": "Aito",
+		"data": [
+			"M5",
+			"M7",
+			"Другое"
+		]
+	},
+	{
+		"brand": "Aiways",
+		"data": [
+			"U5",
+			"U6",
+			"Другое"
+		]
+	},
+	{
+		"brand": "Alfa Romeo",
+		"data": [
+			"145",
+			"146",
+			"147",
+			"155",
+			"156",
+			"159",
+			"164",
+			"166",
+			"33",
+			"4C",
+			"75",
+			"90",
+			"Brera",
+			"Giulia",
+			"Giulietta",
+			"GT",
+			"GTV",
+			"MiTo",
+			"Spider",
+			"Stelvio",
+			"Tonale",
+			"Другое"
+		]
+	},
+	{
+		"brand": "ArcFox",
+		"data": [
+			"Alpha S",
+			"Alpha T",
+			"Lite",
+			"Другое"
+		]
+	},
+	{
+		"brand": "Aston Martin",
+		"data": [
+			"DB11",
+			"Vantage",
+			"DBS",
+			"Rapide",
+			"Vanquish",
+			"DBX",
+			"V12 Vantage",
+			"V8 Vantage",
+			"Другое"
+		]
+	},
+	{
+		"brand": "Audi",
+		"data": [
+			"A1",
+			"A3",
+			"A4",
+			"A5",
+			"A6",
+			"A7",
+			"A8",
+			"Q2",
+			"Q3",
+			"Q4 e-tron",
+			"Q5",
+			"Q7",
+			"Q8",
+			"R8",
+			"RS3",
+			"RS4",
+			"RS5",
+			"RS6",
+			"RS7",
+			"TT",
+			"S3",
+			"S4",
+			"S5",
+			"S6",
+			"S7",
+			"S8",
+			"e-tron",
+			"A1 citycarver",
+			"Q2L",
+			"Другое"
+		]
+	},
+	{
+		"brand": "Avatr",
+		"data": [
+			"11",
+			"Другое"
+		]
+	},
+	{
+		"brand": "BAIC",
+		"data": [
+			"BJ40",
+			"BJ80",
+			"X3",
+			"X5",
+			"EU5",
+			"C3",
+			"C7",
+			"S7",
+			"Другое"
+		]
+	},
+	{
+		"brand": "BAW",
+		"data": [
+			"F0",
+			"F3",
+			"BJ212",
+			"X5",
+			"X7",
+			"Другое"
+		]
+	},
+	{
+		"brand": "BMW",
+		"data": [
+			"1 Series",
+			"2 Series",
+			"3 Series",
+			"4 Series",
+			"5 Series",
+			"6 Series",
+			"7 Series",
+			"8 Series",
+			"X1",
+			"X2",
+			"X3",
+			"X4",
+			"X5",
+			"X6",
+			"X7",
+			"X8",
+			"M2",
+			"M3",
+			"M4",
+			"M5",
+			"M6",
+			"M8",
+			"Z4",
+			"i3",
+			"i4",
+			"i7",
+			"iX",
+			"i8",
+			"iX3",
+			"Другое"
+		]
+	},
+	{
+		"brand": "Bentley",
+		"data": [
+			"Continental GT",
+			"Flying Spur",
+			"Bentayga",
+			"Mulsanne",
+			"Арнедж",
+			"Другое"
+		]
+	},
+	{
+		"brand": "Brilliance",
+		"data": [
+			"H330",
+			"H520",
+			"Zinger",
+			"Fengxing",
+			"V5",
+			"V3",
+			"V6",
+			"Другое"
+		]
+	},
+	{
+		"brand": "Buick",
+		"data": [
+			"Enclave",
+			"LaCrosse",
+			"Regal",
+			"Verano",
+			"Encore",
+			"Envision",
+			"Excelle",
+			"GL8",
+			"Cascada",
+			"Regal TourX",
+			"Другое"
+		]
+	},
+	{
+		"brand": "Byd",
+		"data": [
+			"Tang",
+			"Song",
+			"Qin",
+			"F3",
+			"F0",
+			"G3",
+			"L3",
+			"S6",
+			"T5",
+			"E6",
+			"Dolphin",
+			"Yuan",
+			"Han",
+			"ATTO 3",
+			"Seal",
+			"Другое"
+		]
+	},
+	{
+		"brand": "Cadillac",
+		"data": [
+			"Escalade",
+			"CTS",
+			"XTS",
+			"CT6",
+			"ATS",
+			"CTS-V",
+			"XT5",
+			"XT4",
+			"XT6",
+			"LYRIQ",
+			"DeVille",
+			"Seville",
+			"SRX",
+			"Fleetwood",
+			"Бестселлеры Cadillac",
+			"Другое"
+		]
+	},
+	{
+		"brand": "Changan",
+		"data": [
+			"CS35",
+			"CS75",
+			"CS95",
+			"Eado",
+			"Alsvin",
+			"Yida",
+			"Benni",
+			"CS55",
+			"UNI-T",
+			"UNI-K",
+			"Chana",
+			"Другое"
+		]
+	},
+	{
+		"brand": "Chery",
+		"data": [
+			"Tiggo 2",
+			"Tiggo 3",
+			"Tiggo 4",
+			"Tiggo 5",
+			"Tiggo 7",
+			"Tiggo 8",
+			"Arrizo 3",
+			"Arrizo 5",
+			"Arrizo 7",
+			"Bonus",
+			"QQ",
+			"Tiggo 2 Pro",
+			"Tiggo 4 Pro",
+			"Tiggo 7 Pro",
+			"Другое"
+		]
+	},
+	{
+		"brand": "Chevrolet",
+		"data": [
+			"Aveo",
+			"Cruze",
+			"Malibu",
+			"Impala",
+			"Traverse",
+			"Spark",
+			"Sonic",
+			"Equinox",
+			"Tahoe",
+			"Suburban",
+			"Camaro",
+			"Corvette",
+			"Bolt",
+			"Silverado",
+			"Captiva",
+			"Orlando",
+			"Другое"
+		]
+	},
+	{
+		"brand": "Chrysler",
+		"data": [
+			"300",
+			"Pacifica",
+			"Voyager",
+			"Aspen",
+			"Sebring",
+			"Town & Country",
+			"Imperial",
+			"Crossfire",
+			"Другое"
+		]
+	},
+	{
+		"brand": "Citroen",
+		"data": [
+			"C3",
+			"C4",
+			"C5",
+			"C-Elysee",
+			"Berlingo",
+			"DS3",
+			"DS4",
+			"DS5",
+			"Jumper",
+			"Picasso",
+			"C3 Aircross",
+			"C4 Cactus",
+			"C4 SpaceTourer",
+			"Другое"
+		]
+	},
+	{
+		"brand": "Cupra",
+		"data": [
+			"Ateca",
+			"Formentor",
+			"Leon",
+			"Born",
+			"Другое"
+		]
+	},
+	{
+		"brand": "DS Automobiles",
+		"data": [
+			"3 Crossback",
+			"4",
+			"5",
+			"7 Crossback",
+			"9",
+			"Другое"
+		]
+	},
+	{
+		"brand": "Dacia",
+		"data": [
+			"Logan",
+			"Sandero",
+			"Dokker",
+			"Lodgy",
+			"Spring",
+			"Jogger",
+			"Другое"
+		]
+	},
+	{
+		"brand": "Daewoo",
+		"data": [
+			"Nexia",
+			"Matiz",
+			"Lanos",
+			"Leganza",
+			"Tacuma",
+			"Rezzo",
+			"Kalos",
+			"Другое"
+		]
+	},
+	{
+		"brand": "Daihatsu",
+		"data": [
+			"Ayla",
+			"Terios",
+			"Xenia",
+			"Sirion",
+			"Rocky",
+			"Другое"
+		]
+	},
+	{
+		"brand": "Datsun",
+		"data": [
+			"GO",
+			"GO+",
+			"mi-DO",
+			"on-DO",
+			"Другое"
+		]
+	},
+	{
+		"brand": "Denza",
+		"data": [
+			"500",
+			"400",
+			"Другое"
+		]
+	},
+	{
+		"brand": "Dodge",
+		"data": [
+			"Charger",
+			"Challenger",
+			"Durango",
+			"Journey",
+			"Grand Caravan",
+			"RAM",
+			"Другое"
+		]
+	},
+	{
+		"brand": "Dongfeng",
+		"data": [
+			"AX7",
+			"S50",
+			"Fengon 580",
+			"Fengon 500",
+			"Rich",
+			"L3",
+			"Другое"
+		]
+	},
+	{
+		"brand": "Exeed",
+		"data": [
+			"TX",
+			"TXL",
+			"VX",
+			"Другое"
+		]
+	},
+	{
+		"brand": "FAW",
+		"data": [
+			"Besturn X80",
+			"Oley",
+			"J7",
+			"Senia R7",
+			"X-PV",
+			"Другое"
+		]
+	},
+	{
+		"brand": "Ferrari",
+		"data": [
+			"488 GTB",
+			"812 Superfast",
+			"F8 Tributo",
+			"Portofino",
+			"LaFerrari",
+			"GTC4Lusso",
+			"Roma",
+			"California T",
+			"Другое"
+		]
+	},
+	{
+		"brand": "Fiat",
+		"data": [
+			"500",
+			"Panda",
+			"Tipo",
+			"124 Spider",
+			"Ducato",
+			"500X",
+			"Doblo",
+			"Panda Cross",
+			"Fiorino",
+			"Другое"
+		]
+	},
+	{
+		"brand": "GAC",
+		"data": [
+			"GAC GS4",
+			"GAC GA6",
+			"GAC GN8",
+			"GAC GS8",
+			"GAC GE3",
+			"GAC Trumpchi",
+			"ГAC Enverge",
+			"Другое"
+		]
+	},
+	{
+		"brand": "GMC",
+		"data": [
+			"GMC Sierra",
+			"GMC Canyon",
+			"GMC Acadia",
+			"GMC Terrain",
+			"GMC Yukon",
+			"GMC Hummer EV",
+			"GMC Savana",
+			"ГMC Sierra HD",
+			"Другое"
+		]
+	},
+	{
+		"brand": "Geely",
+		"data": [
+			"Atlas",
+			"Emgrand",
+			"Tugella",
+			"Coolray",
+			"Borui",
+			"MK",
+			"SX11",
+			"Azkarra",
+			"Другое"
+		]
+	},
+	{
+		"brand": "Genesis",
+		"data": [
+			"G70",
+			"G80",
+			"G90",
+			"GV70",
+			"GV80",
+			"Другое"
+		]
+	},
+	{
+		"brand": "Great Wall",
+		"data": [
+			"H6",
+			"H9",
+			"Wingle",
+			"M4",
+			"Ora",
+			"P Series",
+			"Другое"
+		]
+	},
+	{
+		"brand": "Hafei",
+		"data": [
+			"Lobo",
+			"Saibao",
+			"Shunda",
+			"Tino",
+			"Другое"
+		]
+	},
+	{
+		"brand": "Haima",
+		"data": [
+			"7",
+			"8",
+			"M3",
+			"S5",
+			"Freema",
+			"Другое"
+		]
+	},
+	{
+		"brand": "Haval",
+		"data": [
+			"H6",
+			"H9",
+			"F7",
+			"F5",
+			"Jolion",
+			"Big Dog",
+			"Другое"
+		]
+	},
+	{
+		"brand": "HiPhi",
+		"data": [
+			"X",
+			"Z",
+			"Другое"
+		]
+	},
+	{
+		"brand": "Hongqi",
+		"data": [
+			"H9",
+			"E-HS9",
+			"S9",
+			"L5",
+			"Другое"
+		]
+	},
+	{
+		"brand": "Hozon",
+		"data": [
+			"Neta U",
+			"Neta V",
+			"Neta X",
+			"Другое"
+		]
+	},
+	{
+		"brand": "Hummer",
+		"data": [
+			"H1",
+			"H2",
+			"H3",
+			"EV",
+			"Другое"
+		]
+	},
+	{
+		"brand": "IM Motors",
+		"data": [
+			"L7",
+			"LS7",
+			"Другое"
+		]
+	},
+	{
+		"brand": "Infiniti",
+		"data": [
+			"QX80",
+			"QX60",
+			"Q50",
+			"Q60",
+			"Q70",
+			"FX",
+			"EX",
+			"Другое"
+		]
+	},
+	{
+		"brand": "Iran Khodro",
+		"data": [
+			"Samand",
+			"Dena",
+			"Soren",
+			"Runna",
+			"Другое"
+		]
+	},
+	{
+		"brand": "Isuzu",
+		"data": [
+			"D-Max",
+			"MU-X",
+			"Trooper",
+			"N-Series",
+			"F-Series",
+			"Другое"
+		]
+	},
+	{
+		"brand": "Iveco",
+		"data": [
+			"Daily",
+			"Stralis",
+			"Trakker",
+			"Eurocargo",
+			"S-WAY",
+			"Другое"
+		]
+	},
+	{
+		"brand": "JMC",
+		"data": [
+			"Vigus",
+			"Baodian",
+			"Yusheng",
+			"4x4",
+			"Другое"
+		]
+	},
+	{
+		"brand": "Jac",
+		"data": [
+			"S5",
+			"T6",
+			"J5",
+			"J7",
+			"Refine",
+			"Другое"
+		]
+	},
+	{
+		"brand": "Jaguar",
+		"data": [
+			"F-Type",
+			"XE",
+			"XF",
+			"XJ",
+			"E-PACE",
+			"I-PACE",
+			"F-PACE",
+			"Другое"
+		]
+	},
+	{
+		"brand": "Jeep",
+		"data": [
+			"Cherokee",
+			"Grand Cherokee",
+			"Wrangler",
+			"Compass",
+			"Renegade",
+			"Gladiator",
+			"Wagoneer",
+			"Grand Wagoneer",
+			"Другое"
+		]
+	},
+	{
+		"brand": "Jetour",
+		"data": [
+			"X70",
+			"X90",
+			"T1",
+			"T2",
+			"T5",
+			"Другое"
+		]
+	},
+	{
+		"brand": "Jetta",
+		"data": [
+			"GLI",
+			"Sedan",
+			"SportWagen",
+			"Hybrid",
+			"Другое"
+		]
+	},
+	{
+		"brand": "LEVC",
+		"data": [
+			"TX",
+			"TXe",
+			"Другое"
+		]
+	},
+	{
+		"brand": "Lada",
+		"data": [
+			"Granta",
+			"Vesta",
+			"XRay",
+			"Largus",
+			"4x4 (Нива)",
+			"Kalina",
+			"Priora",
+			"Niva Travel",
+			"Другое"
+		]
+	},
+	{
+		"brand": "Lada / ВАЗ",
+		"data": [
+			"2101",
+			"2107",
+			"2110",
+			"2114",
+			"2115",
+			"2106",
+			"2121 Нива",
+			"2112",
+			"Другое"
+		]
+	},
+	{
+		"brand": "Lamborghini",
+		"data": [
+			"Aventador",
+			"Huracán",
+			"Urus",
+			"Gallardo",
+			"Murciélago",
+			"Sian",
+			"Reventón",
+			"Другое"
+		]
+	},
+	{
+		"brand": "Lancia",
+		"data": [
+			"Ypsilon",
+			"Delta",
+			"Thema",
+			"Stratos",
+			"Musa",
+			"Phedra",
+			"Другое"
+		]
+	},
+	{
+		"brand": "Land Rover",
+		"data": [
+			"Defender",
+			"Discovery",
+			"Range Rover",
+			"Velar",
+			"Evoque",
+			"Freelander",
+			"Series I, II, III",
+			"Другое"
+		]
+	},
+	{
+		"brand": "Leapmotor",
+		"data": [
+			"T03",
+			"C11",
+			"S01",
+			"C01",
+			"T04",
+			"Другое"
+		]
+	},
+	{
+		"brand": "Lexus",
+		"data": [
+			"RX",
+			"NX",
+			"ES",
+			"LS",
+			"GX",
+			"LX",
+			"IS",
+			"CT",
+			"LC",
+			"UX",
+			"Другое"
+		]
+	},
+	{
+		"brand": "LiXiang",
+		"data": [
+			"One",
+			"L9",
+			"L8",
+			"L7",
+			"L6",
+			"Другое"
+		]
+	},
+	{
+		"brand": "Lifan",
+		"data": [
+			"X50",
+			"X60",
+			"X70",
+			"Solano",
+			"Smily",
+			"Breez",
+			"320",
+			"Лифан 520",
+			"Другое"
+		]
+	},
+	{
+		"brand": "Lincoln",
+		"data": [
+			"Navigator",
+			"Aviator",
+			"Corsair",
+			"Continental",
+			"MKZ",
+			"MKC",
+			"MKT",
+			"Town Car",
+			"Другое"
+		]
+	},
+	{
+		"brand": "Linktour",
+		"data": [
+			"X5",
+			"LX7",
+			"S5",
+			"Другое"
+		]
+	},
+	{
+		"brand": "Lotus",
+		"data": [
+			"Elise",
+			"Exige",
+			"Evora",
+			"Emira",
+			"3-Eleven",
+			"Eclat",
+			"Esprit",
+			"Europa",
+			"Другое"
+		]
+	},
+	{
+		"brand": "Lucid",
+		"data": [
+			"Air",
+			"Air Pure",
+			"Air Touring",
+			"Air Grand Touring",
+			"Air Dream Edition",
+			"Другое"
+		]
+	},
+	{
+		"brand": "Luxeed",
+		"data": [
+			"G6",
+			"C5",
+			"G3",
+			"Другое"
+		]
+	},
+	{
+		"brand": "Lynk & Co",
+		"data": [
+			"01",
+			"02",
+			"03",
+			"04",
+			"05",
+			"Другое"
+		]
+	},
+	{
+		"brand": "MG",
+		"data": [
+			"MG ZS",
+			"MG Hector",
+			"MG GS",
+			"MG3",
+			"MG5",
+			"MG6",
+			"MG Cyberster",
+			"MG Marvel R",
+			"Другое"
+		]
+	},
+	{
+		"brand": "Maserati",
+		"data": [
+			"Ghibli",
+			"Levante",
+			"Quattroporte",
+			"GranTurismo",
+			"MC20",
+			"Alfieri",
+			"Grecale",
+			"Другое"
+		]
+	},
+	{
+		"brand": "Mazda",
+		"data": [
+			"2",
+			"3",
+			"6",
+			"CX-3",
+			"CX-5",
+			"CX-30",
+			"CX-50",
+			"CX-60",
+			"MX-5 Miata",
+			"MX-30",
+			"Другое"
+		]
+	},
+	{
+		"brand": "McLaren",
+		"data": [
+			"570S",
+			"720S",
+			"765LT",
+			"Artura",
+			"GT",
+			"P1",
+			"Speedtail",
+			"Sabre",
+			"Другое"
+		]
+	},
+	{
+		"brand": "Mercedes-Maybach",
+		"data": [
+			"S-Class",
+			"GLS",
+			"Vision 6",
+			"S 650",
+			"Другое"
+		]
+	},
+	{
+		"brand": "Mercury",
+		"data": [
+			"Sable",
+			"Grand Marquis",
+			"Cougar",
+			"Mountaineer",
+			"Milan",
+			"Mariner",
+			"Monterey",
+			"Villager",
+			"Другое"
+		]
+	},
+	{
+		"brand": "Mini",
+		"data": [
+			"Cooper",
+			"Clubman",
+			"Countryman",
+			"Convertible",
+			"Electric",
+			"Paceman",
+			"Coupe",
+			"Roadster",
+			"Другое"
+		]
+	},
+	{
+		"brand": "Mitsubishi",
+		"data": [
+			"Outlander",
+			"Eclipse Cross",
+			"ASX",
+			"Lancer",
+			"Pajero",
+			"Galant",
+			"i-MiEV",
+			"Colt",
+			"3000GT",
+			"Другое"
+		]
+	},
+	[
+		{
+			"brand": "NIO",
+			"data": [
+				"ES6",
+				"ES8",
+				"EC6",
+				"ET7",
+				"ET5",
+				"EL7",
+				"ET5 Touring",
+				"EC7",
+				"Другое"
+			]
+		},
+		{
+			"brand": "Opel",
+			"data": [
+				"Astra",
+				"Corsa",
+				"Insignia",
+				"Mokka",
+				"Grandland",
+				"Vivaro",
+				"Zafira",
+				"Crossland",
+				"Combo",
+				"Другое"
+			]
+		},
+		{
+			"brand": "Oshan",
+			"data": [
+				"X7",
+				"X5",
+				"X4",
+				"E8",
+				"Другое"
+			]
+		},
+		{
+			"brand": "Peugeot",
+			"data": [
+				"208",
+				"3008",
+				"5008",
+				"508",
+				"2008",
+				"308",
+				"Traveller",
+				"Partner",
+				"Boxer",
+				"Rifter",
+				"Другое"
+			]
+		},
+		{
+			"brand": "Piaggio",
+			"data": [
+				"Vespa",
+				"Liberty",
+				"Beverly",
+				"MP3",
+				"Ape",
+				"Porter",
+				"Hexagon",
+				"Другое"
+			]
+		},
+		{
+			"brand": "Polestar",
+			"data": [
+				"1",
+				"2",
+				"3",
+				"4",
+				"Другое"
+			]
+		},
+		{
+			"brand": "Pontiac",
+			"data": [
+				"Firebird",
+				"G6",
+				"GTO",
+				"Solstice",
+				"Bonneville",
+				"Grand Prix",
+				"Vibe",
+				"Aztek",
+				"Другое"
+			]
+		},
+		{
+			"brand": "Porsche",
+			"data": [
+				"911",
+				"Cayenne",
+				"Panamera",
+				"Macan",
+				"Taycan",
+				"718",
+				"Cayman",
+				"Boxster",
+				"Taycan Cross Turismo",
+				"Другое"
+			]
+		},
+		{
+			"brand": "Ravon",
+			"data": [
+				"R2",
+				"Nexia",
+				"Matiz",
+				"Labo",
+				"TSI",
+				"Другое"
+			]
+		},
+		{
+			"brand": "Renault",
+			"data": [
+				"Clio",
+				"Megane",
+				"Koleos",
+				"Captur",
+				"Kangoo",
+				"Talisman",
+				"Arkana",
+				"Espace",
+				"Zoe",
+				"Другое"
+			]
+		},
+		{
+			"brand": "Renault Samsung",
+			"data": [
+				"QM6",
+				"SM3",
+				"SM6",
+				"QM5",
+				"Talisman",
+				"Другое"
+			]
+		},
+		{
+			"brand": "Riddara",
+			"data": [
+				"R1",
+				"R2",
+				"R3",
+				"Другое"
+			]
+		},
+		{
+			"brand": "Rivian",
+			"data": [
+				"R1T",
+				"R1S",
+				"EDV 700",
+				"Ривиан Р1",
+				"Другое"
+			]
+		},
+		{
+			"brand": "Roewe",
+			"data": [
+				"RX5",
+				"RX8",
+				"i5",
+				"360",
+				"550",
+				"Другое"
+			]
+		},
+		{
+			"brand": "Rolls-Royce",
+			"data": [
+				"Phantom",
+				"Cullinan",
+				"Wraith",
+				"Dawn",
+				"Ghost",
+				"Spectre",
+				"Другое"
+			]
+		},
+		{
+			"brand": "Rover",
+			"data": [
+				"Land Rover Discovery",
+				"Land Rover Range Rover",
+				"Land Rover Defender",
+				"Land Rover Range Rover Velar",
+				"Land Rover Range Rover Evoque",
+				"Land Rover Freelander",
+				"Другое"
+			]
+		},
+		{
+			"brand": "Saab",
+			"data": [
+				"9-3",
+				"9-5",
+				"9-4X",
+				"9-7X",
+				"900",
+				"Другое"
+			]
+		},
+		{
+			"brand": "Saturn",
+			"data": [
+				"Aura",
+				"Vue",
+				"Outlook",
+				"Ion",
+				"Sky",
+				"L-Series",
+				"Другое"
+			]
+		},
+		{
+			"brand": "Scion",
+			"data": [
+				"tC",
+				"xB",
+				"xD",
+				"FR-S",
+				"iM",
+				"Другое"
+			]
+		},
+		{
+			"brand": "Seat",
+			"data": [
+				"Ibiza",
+				"Leon",
+				"Ateca",
+				"Arona",
+				"Tarraco",
+				"Alhambra",
+				"Другое"
+			]
+		},
+		{
+			"brand": "Skywell",
+			"data": [
+				"ET5",
+				"ET7",
+				"SWM",
+				"Другое"
+			]
+		},
+		{
+			"brand": "Smart",
+			"data": [
+				"Fortwo",
+				"Forfour",
+				"Roadster",
+				"EQ ForTwo",
+				"Другое"
+			]
+		},
+		{
+			"brand": "Ssangyong",
+			"data": [
+				"Korando",
+				"Tivoli",
+				"Rexton",
+				"Musso",
+				"XLV",
+				"Другое"
+			]
+		},
+		{
+			"brand": "Subaru",
+			"data": [
+				"Impreza",
+				"Outback",
+				"Forester",
+				"XV",
+				"Legacy",
+				"WRX",
+				"BRZ",
+				"Другое"
+			]
+		},
+		{
+			"brand": "Suzuki",
+			"data": [
+				"Vitara",
+				"Swift",
+				"Jimny",
+				"S-Cross",
+				"Baleno",
+				"Wagon R",
+				"Другое"
+			]
+		},
+		{
+			"brand": "Tank",
+			"data": [
+				"300",
+				"500",
+				"700",
+				"Другое"
+			]
+		},
+		{
+			"brand": "Tata",
+			"data": [
+				"Nexon",
+				"Harrier",
+				"Safari",
+				"Altroz",
+				"Tigor",
+				"Tiago",
+				"Другое"
+			]
+		},
+		{
+			"brand": "Tatra",
+			"data": [
+				"813",
+				"Phoenix",
+				"815",
+				"700",
+				"Другое"
+			]
+		},
+		{
+			"brand": "Tesla",
+			"data": [
+				"Model S",
+				"Model 3",
+				"Model X",
+				"Model Y",
+				"Cybertruck",
+				"Roadster",
+				"Другое"
+			]
+		},
+		{
+			"brand": "Venucia",
+			"data": [
+				"T90",
+				"D60",
+				"M50V",
+				"e30",
+				"Другое"
+			]
+		},
+		{
+			"brand": "Voyah",
+			"data": [
+				"Free",
+				"Dream",
+				"i-Land",
+				"Другое"
+			]
+		},
+		{
+			"brand": "Weltmeister",
+			"data": [
+				"EX5",
+				"EX6",
+				"W6",
+				"Другое"
+			]
+		},
+		{
+			"brand": "Wuling",
+			"data": [
+				"Hongguang",
+				"Baojun 510",
+				"Zhengtu",
+				"Mini EV",
+				"Другое"
+			]
+		},
+		{
+			"brand": "Xiaomi",
+			"data": [
+				"Electric Car (будущий выпуск)",
+				"Другое"
+			]
+		},
+		{
+			"brand": "Xpeng",
+			"data": [
+				"P7",
+				"G3",
+				"P5",
+				"G9",
+				"Другое"
+			]
+		},
+		{
+			"brand": "Zeekr",
+			"data": [
+				"001",
+				"009",
+				"X",
+				"Другое"
+			]
+		},
+		{
+			"brand": "Zotye",
+			"data": [
+				"T600",
+				"Z8",
+				"T700",
+				"Z100",
+				"Другое"
+			]
+		},
+		{
+			"brand": "ГАЗ",
+			"data": [
+				"ГАЗель Next",
+				"ГАЗель Business",
+				"ГАЗель УАЗ",
+				"ГАЗель",
+				"ГАЗ-66",
+				"Другое"
+			]
+		},
+		{
+			"brand": "Другая марка",
+			"data": [
+				"Введите свою марку и модель"
+			]
+		},
+		{
+			"brand": "ЗАЗ",
+			"data": [
+				"Sens",
+				"Vida",
+				"Forza",
+				"1102",
+				"968",
+				"Другое"
+			]
+		},
+		{
+			"brand": "ЛуАЗ",
+			"data": [
+				"969",
+				"1302",
+				"1300",
+				"Другое"
+			]
+		},
+		{
+			"brand": "Москвич / Иж",
+			"data": [
+				"Москвич 412",
+				"Москвич 408",
+				"Москвич 2138",
+				"Иж 2125",
+				"Иж 2715",
+				"Другое"
+			]
+		},
+		{
+			"brand": "УАЗ",
+			"data": [
+				"Patriot",
+				"Хантер",
+				"Буханка",
+				"3151",
+				"469",
+				"Другое"
+			]
+		}
+	]
+]

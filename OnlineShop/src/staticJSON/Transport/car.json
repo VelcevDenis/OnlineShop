@@ -1,0 +1,636 @@
+[
+    {
+        "cars": [
+            {
+                "block": 1,
+                "name": "title",
+                "filesds": [
+                    {
+                        "id": "title",
+                        "type": "txt",
+                        "txtSymbols": 300
+                    }
+                ]
+            },
+            {
+                "block": 2,
+                "name": "price",
+                "filesds": [
+                    {
+                        "id": "price",
+                        "type": "txt",
+                        "txtSymbols": 10
+                    },
+                    {
+                        "id": "onePrice",
+                        "type": "checkbox"
+                    },
+                    {
+                        "id": "priceIncludesVAT",
+                        "type": "checkbox"
+                    },
+                    {
+                        "id": "exchange",
+                        "type": "checkbox"
+                    }
+                ]
+            },
+            {
+                "block": 3,
+                "name": "main info",
+                "filesds": [
+                    {
+                        "id": "brands",
+                        "type": "ddl",
+                        "data": "carBrands.json"
+                    },
+                    {
+                        "id": "model",
+                        "type": "ddl",
+                        "data": "carModels.json"
+                    },
+                    {
+                        "id": "firstRegistrationYear",
+                        "type": "ddl",
+                        "data": "years.json"
+                    },
+                    {
+                        "id": "firstRegistrationMonth",
+                        "type": "ddl",
+                        "data": "months.json"
+                    },
+                    {
+                        "id": "bodyType",
+                        "type": "ddl",
+                        "data": "bodyType.json"
+                    }
+                ]
+            },
+            {
+                "block": 4,
+                "name": "tehnical info",
+                "filesds": [
+                    {
+                        "id": "mileage",
+                        "type": "txt",
+                        "txtSymbols": 10
+                    },
+                    {
+                        "id": "model",
+                        "type": "ddl",
+                        "data": [
+                            "Automatic",
+                            "Manual",
+                            "Semi-automatic"
+                        ]
+                    },
+                    {
+                        "id": "engineCapacity",
+                        "type": "ddl",
+                        "data": [
+                            0,
+                            1,
+                            2,
+                            3,
+                            4,
+                            5,
+                            6,
+                            7,
+                            8,
+                            9,
+                            10,
+                            11,
+                            12,
+                            13,
+                            14,
+                            15,
+                            16,
+                            17,
+                            18,
+                            19,
+                            20,
+                            21,
+                            22,
+                            23,
+                            24,
+                            25
+                        ]
+                    },
+                    {
+                        "id": "bodyType",
+                        "type": "ddl",
+                        "data": [
+                            1,
+                            2,
+                            3,
+                            4,
+                            5,
+                            6,
+                            7,
+                            8,
+                            9
+                        ]
+                    },
+                    {
+                        "id": "enginePower",
+                        "type": "txt",
+                        "txtSymbols": 3
+                    },
+                    {
+                        "id": "fuelType",
+                        "type": "ddl",
+                        "data": "fuelType.json"
+                    },
+                    {
+                        "id": "VINCod",
+                        "type": "txt",
+                        "txtSymbols": 30
+                    },
+                    {
+                        "id": "color",
+                        "type": "ddl",
+                        "data": "color.json"
+                    },
+                    {
+                        "id": "drive",
+                        "type": "ddl",
+                        "data": [
+                            "Rear",
+                            "Front",
+                            "All-wheel"
+                        ]
+                    },
+                    {
+                        "id": "fuelTankCapacity",
+                        "type": "txt",
+                        "txtSymbols": 4
+                    },
+                    {
+                        "id": "climateControl",
+                        "type": "ddl",
+                        "data": [
+                            "Automatic climate control",
+                            "Air conditioner"
+                        ]
+                    },
+                    {
+                        "id": "numberOfSeats",
+                        "type": "txt",
+                        "txtSymbols": 2
+                    },
+                    {
+                        "id": "numberOfDoors",
+                        "type": "txt",
+                        "txtSymbols": 2
+                    },
+                    {
+                        "id": "warranty",
+                        "type": "checkbox"
+                    },
+                    {
+                        "id": "technicalInspection",
+                        "type": "checkbox"
+                    },
+                    {
+                        "id": "inEmergencyCondition",
+                        "type": "checkbox"
+                    }
+                ]
+            },
+            {
+                "block": 5,
+                "name": "fuel consumption",
+                "filesds": [
+                    {
+                        "id": "inTown",
+                        "type": "float",
+                        "format": "0.00",
+                        "txtSymbols": 4
+                    },
+                    {
+                        "id": "onTheHighway",
+                        "type": "float",
+                        "format": "0.00",
+                        "txtSymbols": 4
+                    },
+                    {
+                        "id": "average",
+                        "type": "float",
+                        "format": "0.00",
+                        "txtSymbols": 4
+                    }
+                ]
+            },
+            {
+                "block": 6,
+                "name": "equipment",
+                "subblocks": [
+                    {
+                        "block": 1,
+                        "title1": "interiorEquipment",
+                        "filesds": [
+                            {
+                                "id": "parkingSensors",
+                                "type": "checkbox"
+                            },
+                            {
+                                "id": "glassEquipment",
+                                "type": "checkbox"
+                            },
+                            {
+                                "id": "powerSteering",
+                                "type": "checkbox"
+                            },
+                            {
+                                "id": "multifunctionSteeringWheel",
+                                "type": "checkbox"
+                            },
+                            {
+                                "id": "adjustableSteeringWheel",
+                                "type": "checkbox"
+                            },
+                            {
+                                "id": "headUpDisplay",
+                                "type": "checkbox"
+                            },
+                            {
+                                "id": "sunroof",
+                                "type": "checkbox"
+                            },
+                            {
+                                "id": "panoramicRoof",
+                                "type": "checkbox"
+                            },
+                            {
+                                "id": "skiBag",
+                                "type": "checkbox"
+                            },
+                            {
+                                "id": "independentHeatingSystem",
+                                "type": "checkbox"
+                            },
+                            {
+                                "id": "cruiseControl",
+                                "type": "checkbox"
+                            },
+                            {
+                                "id": "centralLocking",
+                                "type": "checkbox"
+                            },
+                            {
+                                "id": "floorMats",
+                                "type": "checkbox"
+                            },
+                            {
+                                "id": "comfortSeats",
+                                "type": "checkbox"
+                            },
+                            {
+                                "id": "sportsSeats",
+                                "type": "checkbox"
+                            },
+                            {
+                                "id": "seatHeating",
+                                "type": "checkbox"
+                            },
+                            {
+                                "id": "electricSeatAdjustment",
+                                "type": "checkbox"
+                            },
+                            {
+                                "id": "seatUpholstery",
+                                "type": "checkbox"
+                            },
+                            {
+                                "id": "interiorColor",
+                                "type": "checkbox"
+                            },
+                            {
+                                "id": "softCloseDoors",
+                                "type": "checkbox"
+                            },
+                            {
+                                "id": "additionalInteriorLighting",
+                                "type": "checkbox"
+                            }
+                        ]
+                    },
+                    {
+                        "block": 2,
+                        "title1": "safety",
+                        "filesds": [
+                            {
+                                "id": "absSystem",
+                                "type": "checkbox"
+                            },
+                            {
+                                "id": "tractionControlSystem",
+                                "type": "checkbox"
+                            },
+                            {
+                                "id": "dynamicStabilityControl",
+                                "type": "checkbox"
+                            },
+                            {
+                                "id": "airbags",
+                                "type": "checkbox"
+                            },
+                            {
+                                "id": "immobilizer",
+                                "type": "checkbox"
+                            },
+                            {
+                                "id": "isofixChildSeat",
+                                "type": "checkbox"
+                            },
+                            {
+                                "id": "lightSensor",
+                                "type": "checkbox"
+                            },
+                            {
+                                "id": "dustFilter",
+                                "type": "checkbox"
+                            },
+                            {
+                                "id": "rainSensor",
+                                "type": "checkbox"
+                            },
+                            {
+                                "id": "adaptiveLighting",
+                                "type": "checkbox"
+                            },
+                            {
+                                "id": "fogLights",
+                                "type": "checkbox"
+                            },
+                            {
+                                "id": "daytimeRunningLights",
+                                "type": "checkbox"
+                            },
+                            {
+                                "id": "additionalLights",
+                                "type": "checkbox"
+                            },
+                            {
+                                "id": "headlightWashers",
+                                "type": "checkbox"
+                            },
+                            {
+                                "id": "xenonHeadlights",
+                                "type": "checkbox"
+                            },
+                            {
+                                "id": "additionalBrakeLight",
+                                "type": "checkbox"
+                            },
+                            {
+                                "id": "seatBeltTensioners",
+                                "type": "checkbox"
+                            }
+                        ]
+                    },
+                    {
+                        "block": 3,
+                        "title1": "multimediaSystem",
+                        "filesds": [
+                            {
+                                "id": "onBoardComputer",
+                                "type": "checkbox"
+                            },
+                            {
+                                "id": "screen",
+                                "type": "checkbox"
+                            },
+                            {
+                                "id": "radio",
+                                "type": "checkbox"
+                            },
+                            {
+                                "id": "cdPlayer",
+                                "type": "checkbox"
+                            },
+                            {
+                                "id": "dvdPlayer",
+                                "type": "checkbox"
+                            },
+                            {
+                                "id": "subwoofer",
+                                "type": "checkbox"
+                            },
+                            {
+                                "id": "mp3Interface",
+                                "type": "checkbox"
+                            },
+                            {
+                                "id": "navigationSystem",
+                                "type": "checkbox"
+                            },
+                            {
+                                "id": "handsFreeSystem",
+                                "type": "checkbox"
+                            },
+                            {
+                                "id": "bluetooth",
+                                "type": "checkbox"
+                            },
+                            {
+                                "id": "internet",
+                                "type": "checkbox"
+                            },
+                            {
+                                "id": "externalViewCamera",
+                                "type": "checkbox"
+                            }
+                        ]
+                    },
+                    {
+                        "block": 4,
+                        "title1": "externalEquipment",
+                        "filesds": [
+                            {
+                                "id": "electricSideMirrors",
+                                "type": "checkbox"
+                            },
+                            {
+                                "id": "sportSuspension",
+                                "type": "checkbox"
+                            },
+                            {
+                                "id": "sportPackage",
+                                "type": "checkbox"
+                            },
+                            {
+                                "id": "towbar",
+                                "type": "checkbox"
+                            },
+                            {
+                                "id": "roofRack",
+                                "type": "checkbox"
+                            }
+                        ]
+                    },
+                    {
+                        "block": 5,
+                        "title1": "tiresAndWheels",
+                        "filesds": [
+                            {
+                                "id": "summerTires",
+                                "type": "checkbox"
+                            },
+                            {
+                                "id": "winterTires",
+                                "type": "checkbox"
+                            },
+                            {
+                                "id": "alloyWheels",
+                                "type": "checkbox"
+                            },
+                            {
+                                "id": "hubcaps",
+                                "type": "checkbox"
+                            }
+                        ]
+                    },
+                    {
+                        "block": 6,
+                        "title1": "other",
+                        "filesds": [
+                            {
+                                "id": "serviceBook",
+                                "type": "checkbox"
+                            },
+                            {
+                                "id": "nonSmokingCar",
+                                "type": "checkbox"
+                            },
+                            {
+                                "id": "disabledEquipment",
+                                "type": "checkbox"
+                            },
+                            {
+                                "id": "taxi",
+                                "type": "checkbox"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "block": 7,
+                "name": "descriptionInEE",
+                "filesds": [
+                    {
+                        "id": "descriptionInEE",
+                        "type": "longTxt",
+                        "txtSymbols": 350
+                    }
+                ]
+            },
+            {
+                "block": 8,
+                "name": "descriptionInRU",
+                "filesds": [
+                    {
+                        "id": "descriptionInRU",
+                        "type": "longTxt",
+                        "txtSymbols": 350
+                    }
+                ]
+            },
+            {
+                "block": 9,
+                "name": "foto",
+                "filesds": [
+                    {
+                        "id": "foto",
+                        "type": "img"
+                    }
+                ]
+            },
+            {
+                "block": 10,
+                "name": "videoLink",
+                "filesds": [
+                    {
+                        "id": "videoLink",
+                        "type": "txt",
+                        "txtSymbols": 350
+                    }
+                ]
+            },
+            {
+                "block": 11,
+                "name": "location",
+                "filesds": [
+                    {
+                        "id": "location",
+                        "type": "txt",
+                        "txtSymbols": 70
+                    }
+                ]
+            },
+            {
+                "block": 12,
+                "name": "phone",
+                "filesds": [
+                    {
+                        "id": "phone",
+                        "type": "ddl",
+                        "txtSymbols": 70
+                    }
+                ]
+            },
+            {
+                "block": 13,
+                "name": "phoneNumber",
+                "filesds": [
+                    {
+                        "id": "phoneNumber",
+                        "type": "ddl",
+                        "data": []
+                    }
+                ]
+            },
+            {
+                "block": 14,
+                "name": "howToConnect",
+                "filesds": [
+                    {
+                        "id": "howToConnect",
+                        "type": "radeo",
+                        "data": [
+                            "By phone and messages",
+                            "Phone only",
+                            "Messages only"
+                        ]
+                    }
+                ]
+            },
+            {
+                "block": -1,
+                "name": "submit"             
+            }
+        ]
+    },
+    {
+        "waterTransport": []
+    },
+    {
+        "otherTransport": []
+    },
+    {
+        "commercialTransport": []
+    },
+    {
+        "motorcycles": []
+    },
+    {
+        "trailersMotorhomes": []
+    },
+    {
+        "snowmobiles": []
+    },
+    {
+        "goodsAndParts": []
+    }
+]

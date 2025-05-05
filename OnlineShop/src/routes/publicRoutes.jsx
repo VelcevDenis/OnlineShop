@@ -1,5 +1,5 @@
 export const publicRoutes = [    
-    { path: "/auto", label: "Auto" },
+    { path: "/transport", label: "Transport" },
     { path: "/realty", label: "Realty" },
     { path: "/service", label: "Service" },
     { path: "/fashion-style-beauty", label: "Fashion & Beauty" },
